@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-container {
+    width: 70%;
+    height: 350px;
+    text-align: justify;
+    vertical-align: top;
+    margin: 0 auto;
+    font-size: 29px;
+    font-family: sans-serif;
+}
+.paragraph {
+    display: block;
+}
+.icon-container {
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 90px 0;
+}
+.icon {
+    width: 21%;
+}
+.icon img {
+    height: 180px;
+    width: 100%;
+    margin: 5px;
+}
+.footer {
+    width: 70%;
+    text-align: center;
+    font: 19px sans-serif;
+    margin: 10px auto;
+    border-top: .5px solid #000;
+}
+.footer ul li {
+    display: inline;
+    padding: 0;
+    margin: 0 10px;
+}
